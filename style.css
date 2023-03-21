@@ -453,3 +453,20 @@ span:nth-child(18) {
 .logo{
   font-size: 1.5rem;
 }
+#containerfooter
+{
+background-color:black;
+position:sticky;
+}
+#ayanfooter
+{
+display:flex;
+padding-left:41%;
+padding-top:15px;
+padding-bottom:15px;
+
+}
+.footernew
+{
+margin-left:5%;
+}
