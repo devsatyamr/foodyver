@@ -167,6 +167,48 @@ html {
     margin-top: 2rem;
     margin-bottom: 1.8rem;
   }
+.form-box{
+    background: linear-gradient(rgba(39, 33, 33, 0.688),rgb(246, 246, 246));
+    width:fit-content;
+    padding-top:2rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    padding-bottom: 8rem;
+    margin-bottom: 5rem;
+    border-radius:5rem;
+    font-size:1.4rem ;
+  }
+  .forget{
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    margin-right: 8rem;
+  }
+.form2-box{
+    background: linear-gradient(rgba(39, 33, 33, 0.688),rgb(246, 246, 246));
+    width:fit-content;
+    padding-top:2rem;
+    padding-right: 3rem;
+    padding-left: 3rem;
+    padding-bottom: 8rem;
+    margin-bottom: 5rem;
+    border-radius:5rem;
+    font-size:1.4rem ;
+  }
+ input{
+  margin-top:1rem; 
+ }
+ @media(max-width:400px){
+  input{
+    width:10rem;
+  }
+
+ }
+ @media(max-width:330px){
+  input{
+    width:5rem;
+  }
+  
+ }
 header{
   padding: 0.5rem;
 }
@@ -373,4 +415,41 @@ span:nth-child(18) {
   #ayanfooter{
     padding-left: 35%;
   }
+}
+.container{
+  max-width: 80vw;
+  font-family:  "Ubuntu", sans-serif;
+}
+.navbar{
+  display: flex;
+  height: 70px;
+}
+.navbar li{
+  list-style: none;
+  margin: 0 12px;
+}
+.topleft{
+  width: 50%;
+  
+}
+.topright{
+  width: 50%;
+  
+}
+.section1{
+  max-height: 50vh;
+}
+.section1 h1{
+  font-size: 2rem;
+}
+.btn{
+  padding: 6px 12px;
+  cursor: pointer;
+  border: 2px transparent blueviolet;
+  border-radius: 12px;
+  color: white;
+  background-color:aqua;
+}
+.logo{
+  font-size: 1.5rem;
 }
